@@ -358,7 +358,7 @@ uv run src/lbes.py \
 - `--population-size`: 個体数
 - `--noise-std`: ノイズの標準偏差
 - `--learning-rate`: 学習率
-- `--num-train-epochs`
+- `--num-train-epochs`: エポック数
 
 ### LBES 固有: 報酬に基づくフィルタ
 
