@@ -1,0 +1,15 @@
+[project]
+name = "lbes"
+version = "0.1.0"
+description = "A vLLM + Ray implementation of Evolution Strategies (ES) and Likelihood-Based Evolution Strategies (LBES) for fine-tuning large language models"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.4.2",
+    "flash-attn>=2.8.3",
+    "vllm==0.12.0",
+    "wandb>=0.23.1",
+]
+
+[tool.uv.extra-build-dependencies]
+flash-attn = ["torch==2.9.0"]
