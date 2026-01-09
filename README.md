@@ -13,7 +13,9 @@
 - Python >= 3.12
 - CUDA 対応 GPU
 
-### インストール（uv）
+### インストール
+
+[uv](https://docs.astral.sh/uv/)を使用します。
 
 ```bash
 git clone https://github.com/nlp-waseda/lbes.git
