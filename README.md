@@ -432,10 +432,10 @@ LBES は各ステップで、(1) まず `n` 個の生成と報酬計算を行い
 
 `--output-dir` に以下が保存されます。
 
-- 最終モデル（`model.safetensors` など。TP>1 ではシャード保存）
+- 最終モデル（`model.safetensors` など）
 - `--save-strategy` 有効時: `checkpoint-<step>/`
 
-※ TP>1 の場合、モデルはシャード（分割）して保存されます。
+※ TP>1 の場合、モデルはシャードで保存されます。
 
 ---
 
