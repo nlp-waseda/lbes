@@ -136,6 +136,23 @@ uv run src/lbes.py \
 
 ## [TSUBAME 4.0](https://www.t4.cii.isct.ac.jp/)におけるジョブスクリプト例
 
+### インストール
+
+```bash
+#!/bin/bash
+#$ -cwd
+#$ -l cpu_4=1
+#$ -l h_rt=00:30:00
+#$ -j y
+
+module purge
+module load cuda/12.8.0 cudnn/9.8.0 nccl/2.26.2
+
+export PATH="$HOME/.local/bin:$PATH"
+
+uv sync
+```
+
 ### ES（GSM8K）
 
 ```bash
