@@ -134,7 +134,7 @@ uv run src/lbes.py \
     --save-steps 200
 ```
 
-## [TSUBAME 4.0](https://www.t4.cii.isct.ac.jp/)におけるジョブスクリプト例
+## [TSUBAME4.0](https://www.t4.cii.isct.ac.jp/)におけるジョブスクリプト例
 
 ### インストール
 
